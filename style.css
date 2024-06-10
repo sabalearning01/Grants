@@ -192,3 +192,45 @@ header a {
     padding-right: 63px;
 
 }
+
+.box1 img{
+    padding-bottom: 31px;
+}
+
+.three{
+    width:90%;
+    height:448px;
+    background-color: #090909;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 129px;
+}
+
+.parent{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.three h3{
+    color:white;
+    padding-left: 51px;
+    font-size: 3rem;
+    margin-top: 29px;
+    font-weight: 700;
+    /* width: 732px; */
+}
+
+.three p{
+    color:white;
+    padding-left: 51px;
+    font-size: 1.25rem;
+    letter-spacing: 10%;
+    
+}
+
+.italic {
+    font-size:1.25rem ;
+    font-style: italic;
+    margin-top: 13px;
+}
