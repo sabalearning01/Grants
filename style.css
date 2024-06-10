@@ -57,10 +57,10 @@ header a {
   gap: 28px;
 }
 
-.iconbutton fa{
-    width:28px;
-    height:28px;
-    color:#f8f8f8;
+.iconbutton fa {
+  width: 28px;
+  height: 28px;
+  color: #f8f8f8;
 }
 
 .iconbutton button {
@@ -160,77 +160,101 @@ header a {
   border-bottom-right-radius: 36px;
 }
 
-.container{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-left: 63px;
-    padding-right: 63px;
-
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 63px;
+  padding-right: 63px;
 }
 
 .box1 {
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width:360px;
-    height: 350px;
-    background-color: #ffff;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 2px rgba(0,0,0,0.5);
-    margin-top: 118px;
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 360px;
+  height: 350px;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 118px;
 }
 
-.container1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-left: 63px;
-    padding-right: 63px;
-
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 63px;
+  padding-right: 63px;
 }
 
-.box1 img{
-    padding-bottom: 31px;
+.box1 img {
+  padding-bottom: 31px;
 }
 
-.three{
-    width:90%;
-    height:448px;
-    background-color: #090909;
-    margin: 0 auto;
-    align-items: center;
-    margin-top: 129px;
+.three {
+  width: 90%;
+  height: 448px;
+  background-color: #090909;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 129px;
 }
 
-.parent{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
 }
 
-.three h3{
-    color:white;
-    padding-left: 51px;
-    font-size: 3rem;
-    margin-top: 29px;
-    font-weight: 700;
-    /* width: 732px; */
+.three h3 {
+  color: white;
+  padding-left: 51px;
+  font-size: 2.5rem;
+  margin-top: 29px;
+  font-weight: 700;
+  /* width: 732px; */
 }
 
-.three p{
-    color:white;
-    padding-left: 51px;
-    font-size: 1.25rem;
-    letter-spacing: 10%;
-    
+.three p {
+  color: white;
+  padding-left: 51px;
+  font-size: 1.25rem;
+  letter-spacing: 10%;
+  margin-top: 27px;
 }
 
 .italic {
-    font-size:1.25rem ;
-    font-style: italic;
-    margin-top: 13px;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-top: 13px;
 }
+
+.lefty-col button {
+  background-color: #6503a7;
+  padding: 28px 23px;
+  border: none;
+  margin-left: 53px;
+  margin-top: 29px;
+  border-radius: 10px;
+  width: 338px;
+}
+
+.lefty-col a {
+  text-decoration: none;
+  color: #ffff;
+  width: 338px;
+  font-size: 1.5rem;
+  letter-spacing: 0.2%;
+}
+.righty-col img {
+  width: 344px;
+  height: 376px;
+  padding-right: 82px;
+  object-fit: cover;
+}
+
+
