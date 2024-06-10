@@ -179,6 +179,16 @@ header a {
     background-color: #ffff;
     border-radius: 10px;
     box-shadow: inset 0px 0px 2px rgba(0,0,0,0.5);
-    margin-top: 40px;
+    margin-top: 118px;
+
+}
+
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 63px;
+    padding-right: 63px;
 
 }
