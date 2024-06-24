@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +8,16 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: Poppins,Reenie Beenie;
+}
+
+main{
+  display: flex;
 }
 
 .sidediv {
   background-image: linear-gradient(#7101be, #350058 50%);
-  width: 40%;
+  width: 45%;
   height: 941px;
 }
 
@@ -32,4 +39,53 @@ body {
   text-transform: uppercase;
   font-size: 2.25rem;
   font-weight: 200;
+}
+
+.sidediv img{
+    width: 100px;
+    height: 6px;
+    margin-left: 205px;
+    margin-bottom: 20px;
+}
+
+.sidediv p{
+  color:white;
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 60px;
+  height: 64px;
+
+}
+
+.sidediv button{
+  width:347px;
+  height: 103px;
+  /* padding: 15px 45px; */
+  border: none;
+  margin-left: 80px;
+  margin-top: 72px;
+  background-color: #350058;
+  border:7px solid white;
+  border-radius: 50px;
+}
+
+.sidediv button a{
+  color:white;
+  text-decoration: none;
+  font-size: 2.25rem;
+}
+
+
+.right-col h1{
+  font-family: Reenie Beanie;
+  text-align: center;
+  padding-left: 280px;
+  color: #7101BE;
+  padding-top: 28px;
+  font-size: 4.375rem;
+
+}
+
+.right-col form input{
+  margin-top: 140px;
 }
